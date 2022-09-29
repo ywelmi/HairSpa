@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html,body {
+    background: #cfd9df;
+    background: -webkit-linear-gradient(to right, #cfd9df, #e2ebf0);
+    background: linear-gradient(to right, #cfd9df, #e2ebf0);
+}
+.results {
+    font-weight: 600
+}
+
+select {
+    border: none;
+    outline: none;
+    padding: 0px 4px;
+    cursor: pointer;
+    background: inherit
+}
+
+.card {
+    border: none;
+    cursor: pointer
+}
+
+.card:hover {
+    transform: scale(1.18);
+    transition: all 0.4s ease-in-out
+   
+}
+#heart {
+     color: red;
+}
+.name {
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
+
+.test {
+   
+    
+    object-fit: contain;
+    padding-top: 10px
+}
+
+.card-body {
+    padding: 0.5rem;
+    padding-top: 0.7rem;
+    padding-right: 0.2rem
+}
+
+.fa-heart {
+    font-size: 1.2rem
+}
+
+.h6 {
+    margin: 0
+}
+
+.btn {
+    padding-top: 0
+    height: 30px;
+}
+
+.btn:hover {
+    color: #fdaa4b
+}
+
+div.text-muted {
+    font-size: 0.9rem
+}
+.modal-content {
+ max-width: 1000px;
+  width: 800px;
+  margin:  auto ;
+  margin-top:  50px ;
+  background: #e8cbc0;
+    background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
+    background: linear-gradient(to right, #e8cbc0, #636fa4);
+    
+}
+.modal-content input {
+    background: #e8cbc0;
+    background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
+    background: linear-gradient(to right, #e8cbc0, #636fa4);
+}
+@media(max-width:372px) {
+    .results {
+        font-size: 0.9rem
+    }
+}
+
+@media(max-width:330px) {
+    .results {
+        font-size: 0.85rem
+    }
+}
+
+@media(min-height: 700px) {
+    body {
+        height: 100vh
+    }
+}
+
+@media(max-width:768px) {
+    body {
+        height: 100%
+    }
+}
